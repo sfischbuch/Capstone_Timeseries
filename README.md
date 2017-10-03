@@ -7,7 +7,7 @@ Can I create an ensemble method of 6 different ARIMA models that is able to pred
 
 The Data: 
 
-I have raw data in pickled form. Unpickled the raw data takes the form of a column of financial values and their associated timestamp. In addition to the raw data I have separate feeds(also pickled) from 6 ARIMA model variations.  These feeds include their associated predictions, and statistics associated with those predictions (RMSE, R**2, confidence intervals etc) for a two month period.
+Raw data in pickled form. Unpickled the raw data takes the form of a column of financial values and their associated timestamp. In addition to the raw data I have separate feeds(also pickled) from 6 ARIMA model variations.  These feeds include their associated predictions, and statistics associated with those predictions (RMSE, R**2, confidence intervals etc) for a two month period.
 
 MVP: 
 
