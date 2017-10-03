@@ -17,7 +17,30 @@ MVP+
 
 From the raw data make an RNN predictor (7th model).
 
-MVP++ 
+Approach
 
-(a)Create a web presence using Flask.
-(b) Fold the 7th Model into original ensemble
+Stage 1: Problem Framing
+
+Identify problem
+Map out project approach
+Define realistic MVPs
+Product: Clear project objective in a readme file
+
+Stage 2: Data Preprocessing
+
+Learn panel architecture
+Unpickle and separate feeds (nested dictionaries)
+Form a pipeline to process panel formatting into dataframes
+Create informative visualizations
+Run through model alternatives(simple to complex)
+
+Stage 3: Build Model
+
+Construct framework 3-layer rnn model with lstm
+Define hyper parameters (GridSearch)
+Incorporate Adam adaptive learning rate methods
+Train on character datasets on AWS g2 instance
+Save trained models as h5 file in s3 bucket
+Product: Trained model
+
+Stage 4: Test Model and Predict
